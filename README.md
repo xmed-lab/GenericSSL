@@ -1,5 +1,11 @@
 # [NeurIPS-2023] Towards Generic Semi-Supervised Framework for Volumetric Medical Image Segmentation
 
+This repo is the official implementation of 'Towards Generic Semi-Supervised Framework for Volumetric Medical Image Segmentation' which is accepted at NeurIPS-2023.
+
+![analysis.png](./images/analysis.png)
+
+![framework.png](./images/Framework.png)
+
 
 
 ## 1. Environment
@@ -148,14 +154,17 @@ Parameters:
 
 ## 4. Results
 
-### 4.1 SSL on LASeg dataset
+### 4.1 Imbalance SSL on Synapse dataset
+![Result_IBSSL.png](./images/Result_IBSSL.png)
 
 
-### 4.2 Imbalance SSL on Synapse dataset
+### 4.2 SSL on LASeg dataset & UDA on MMWHS dataset
+![Result_SSL_UDA.png](./images/Result_SSL_UDA.png)
 
-### 4.2 UDA on MMWHS dataset
 
-### 4.2 SemiDG on M&Ms dataset
+### 4.3 SemiDG on M&Ms dataset
+![Result_SemiDG.png](./images/Result_SemiDG.png)
+
 
 
 # Contact
