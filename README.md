@@ -119,10 +119,30 @@ Run `python ./code/data/preprocess_mnms.py` to:
 For all the pre-processing, you can comment out the functions corresponding to splits and use our pre-split files.
 
 
-Finally, you will get a file structure like this:
+Finally, you will get a file structure as follow:
+```shell
+.
+├── Synapse_data
+│   ├── npy
+│   │   ├── <id>_image.npy
+│   │   ├── <id>_label.npy
+│   │   └── ...
+│   └── split_txts
+│       ├── labeled_0.2.txt
+│       ├── unlabeled_0.2.txt
+│       ├── train.txt
+│       ├── eval.txt
+│       ├── test.txt
+│       └── ...
+├── LA_data
+│   └── ...
+├── MMWHS_data
+│   └── ...
+└── MNMS_data
+    └── ...
+```
 
 
-----
 ## 3. Training & Testing & Evaluating
 
 🔥🔥 **This codebase allows train, test, and evaluate on all the four settings using one single bash file.** 🔥🔥
