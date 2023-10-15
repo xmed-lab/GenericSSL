@@ -122,6 +122,8 @@ Finally, you will get a file structure like this:
 ----
 ## 3. Training & Testing & Evaluating
 
+🔥🔥 **This codebase allows train, test, and evaluate on all the four settings using one single bash file.** 🔥🔥
+
 Run the following commands for training, testing and evaluating.
 
 ```shell
