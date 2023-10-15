@@ -1,8 +1,8 @@
-## Towards Generic Semi-Supervised Framework for Volumetric Medical Image Segmentation
+# [NeurIPS-2023] Towards Generic Semi-Supervised Framework for Volumetric Medical Image Segmentation
 
 
 
-### 1. Environment
+## 1. Environment
 
 This code has been tested with Python 3.6, PyTorch 1.8, torchvision 0.9.0, and CUDA 11.1.
 
@@ -11,7 +11,7 @@ Before running the code, set the `PYTHONPATH` to `pwd`:
 export PYTHONPATH=$(pwd)/code:$PYTHONPATH
 ```
 
-### 2. Data Preparation
+## 2. Data Preparation
 
 First, download the datasets and put them under the `Datasets` folder:
 - **LASeg dataset** for SSL: download the preprocessed data from https://github.com/yulequan/UA-MT/tree/master/data. 
@@ -74,12 +74,12 @@ The file structure should be:
 
 
 
-#### 2.1 Pre-process LASeg dataset
+### 2.1 Pre-process LASeg dataset
 Run `python ./code/data/preprocess_la.py` to:
 - convert `.h5` files to `.npy`.
 - generate the labeled/unlabeled splits
 
-#### 2.2 Pre-process Synapse dataset
+### 2.2 Pre-process Synapse dataset
 
 Run `python ./code/data/preprocess_synapse.py` to 
 - resize the images and convert to `.npy` for faster loading; 
@@ -89,7 +89,7 @@ Run `python ./code/data/preprocess_synapse.py` to
 
 
 
-#### 2.3 Pre-process MMWHS dataset
+### 2.3 Pre-process MMWHS dataset
 Run `python ./code/data/preprocess_mmwhs.py` to:
 - reorient to the same orientation, RAI;
 - convert to continuous labels;
@@ -98,7 +98,7 @@ Run `python ./code/data/preprocess_mmwhs.py` to:
 - resize and convert to `.npy`;
 - generate the train/validation/test splits.
 
-#### 2.4 Pre-process M&Ms dataset
+### 2.4 Pre-process M&Ms dataset
 Run `python ./code/data/preprocess_mnms.py` to:
 - split the original 4D data to 3D along the time axis;
 - crop and resize;
@@ -114,7 +114,7 @@ Finally, you will get a file structure like this:
 
 
 ----
-### 3. Training & Testing & Evaluating
+## 3. Training & Testing & Evaluating
 
 Run the following commands for training, testing and evaluating.
 
@@ -146,19 +146,22 @@ Parameters:
 
 
 
-### 4. Results
+## 4. Results
 
-#### 4.1 SSL on LASeg dataset
-
-
-#### 4.2 Imbalance SSL on Synapse dataset
-
-#### 4.2 UDA on MMWHS dataset
-
-#### 4.2 SemiDG on M&Ms dataset
+### 4.1 SSL on LASeg dataset
 
 
-## License
+### 4.2 Imbalance SSL on Synapse dataset
+
+### 4.2 UDA on MMWHS dataset
+
+### 4.2 SemiDG on M&Ms dataset
+
+
+# Contact
+Haonan Wang (hwanggr@connect.ust.hk)
+
+# License
 
 This repository is released under MIT License.
 
