@@ -1,6 +1,6 @@
 # [NeurIPS-2023] Towards Generic Semi-Supervised Framework for Volumetric Medical Image Segmentation
 
-This repo is the official implementation of 'Towards Generic Semi-Supervised Framework for Volumetric Medical Image Segmentation' which is accepted at NeurIPS-2023.
+This repo is the official implementation of [Towards Generic Semi-Supervised Framework for Volumetric Medical Image Segmentation](https://arxiv.org/abs/2310.11320) which is accepted at NeurIPS-2023.
 
 <p align = "center">    
 <img src="./images/analysis.png" width="70%"/>
