@@ -179,8 +179,11 @@ Parameters:
 
 ## 4. Results & Model Weights
 
+---
 
 🌟🌟 **All trained model weights can be downloaded from** [this link](https://hkustconnect-my.sharepoint.com/:f:/g/personal/hwanggr_connect_ust_hk/Eo7WZlkTUwZKvJldxHPOWuEB-wSr11bztALadbsJITHlVA?e=0LCxgd). 🌟🌟
+
+---
 
 Put the `logs` directory under the root directory of this repo and set `-d False`, then you can test and evaluate the models.
 
