@@ -198,6 +198,21 @@ Put the `logs` directory under the root directory of this repo and set `-d False
 
 
 
+## Citations
+
+
+If this code is helpful for your study, please cite:
+```
+@misc{wang2023generic,
+      title={Towards Generic Semi-Supervised Framework for Volumetric Medical Image Segmentation}, 
+      author={Haonan Wang and Xiaomeng Li},
+      year={2023},
+      eprint={2310.11320},
+      archivePrefix={arXiv}
+}
+```
+
+
 # Contact
 Haonan Wang (hwanggr@connect.ust.hk)
 
