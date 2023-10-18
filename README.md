@@ -213,10 +213,10 @@ If this code is helpful for your study, please cite:
 ```
 
 
-# Contact
+## Contact
 Haonan Wang (hwanggr@connect.ust.hk)
 
-# License
+## License
 
 This repository is released under MIT License.
 
