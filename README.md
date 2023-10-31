@@ -15,9 +15,15 @@ This repo is the official implementation of [Towards Generic Semi-Supervised Fra
 
 ## 1. Environment
 
-This code has been tested with Python 3.6, PyTorch 1.8, torchvision 0.9.0, and CUDA 11.1.
+First, create a new environment and install the requirements:
+```shell
+conda create -n genericssl python=3.8
+conda activate genericssl
+cd GenericSSL/
+pip install -r requirements.txt
+```
 
-Before running the code, set the `PYTHONPATH` to `pwd`:
+Then, before running the code, set the `PYTHONPATH` to `pwd`:
 ```shell
 export PYTHONPATH=$(pwd)/code:$PYTHONPATH
 ```
