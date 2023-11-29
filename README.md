@@ -4,6 +4,7 @@ This repo is the official implementation of [Towards Generic Semi-Supervised Fra
 
 🚀 The significance of this work lies in its ability to encourage semi-supervised medical image segmentation methods to address more complex real-world application scenarios, rather than just developing frameworks in ideal experimental environments. Furthermore, we have consolidated all four settings within this single codebase, enabling the execution of any task using a single bash file by merely adjusting the arguments.
 
+
 <p align = "center">    
 <img src="./images/analysis.png" width="70%"/>
 </p>
@@ -11,6 +12,8 @@ This repo is the official implementation of [Towards Generic Semi-Supervised Fra
 <p align = "center">  
 <img src="./images/Framework.png" width="80%"/>
 </p>
+
+**[Online Presentation Video](https://www.bilibili.com/video/BV1VQ4y1h7VA/?spm_id_from=333.999.0.0&vd_source=99138e8188d50ba1501059078ab79ca5) is available for brief introduction.**
 
 
 ## 1. Environment
