@@ -217,12 +217,11 @@ Put the `logs` directory under the root directory of this repo and set `-d False
 
 If this code is helpful for your study, please cite:
 ```
-@misc{wang2023generic,
-      title={Towards Generic Semi-Supervised Framework for Volumetric Medical Image Segmentation}, 
-      author={Haonan Wang and Xiaomeng Li},
-      year={2023},
-      eprint={2310.11320},
-      archivePrefix={arXiv}
+@inproceedings{wang2023towards,
+  title={Towards Generic Semi-Supervised Framework for Volumetric Medical Image Segmentation},
+  author={Wang, Haonan and Li, Xiaomeng},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+  year={2023}
 }
 ```
 
