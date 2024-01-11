@@ -37,12 +37,12 @@ First, download the datasets and put them under the `Datasets` folder:
 - **LASeg dataset** for SSL: download the preprocessed data from https://github.com/yulequan/UA-MT/tree/master/data. 
 
 - **Synapse dataset** for IBSSL: The MR imaging scans are available at https://www.synapse.org/#!Synapse:syn3193805/wiki/.
-Please sign up and download the dataset.
+Please sign up and download the dataset. 🚀🚀🚀 **Or download the preprossed data via [this link](https://hkustconnect-my.sharepoint.com/:f:/g/personal/hwanggr_connect_ust_hk/Ei5rEfpFYx1Pl0xsV--V55cBktabIcxh5Qbva3fKvkbF5Q?e=1RCiWK).**
 
-- **MMWHS dataset** for UDA: download according to https://github.com/cchen-cc/SIFA#readme.
+- **MMWHS dataset** for UDA: download according to https://github.com/cchen-cc/SIFA#readme. 🚀🚀🚀 **Or download the preprossed data via [this link](https://hkustconnect-my.sharepoint.com/:f:/g/personal/hwanggr_connect_ust_hk/Evzk4w-LpoVFgKwa9dwl38EBR_szwDKITwJE0nOue1pLvw?e=joo4ei).**
 
 - **M&Ms dataset** for SemiDG: download from https://www.ub.edu/mnms/, after unzipping the dataset, you will get an `OpenDataset` folder,
-then you need to run the `python coda/data/split_MNMS_data.py` to spilt and get `MNMs` folder.
+then you need to run the `python coda/data/split_MNMS_data.py` to spilt and get `MNMs` folder. 🚀🚀🚀 **Or download the preprossed data via [this link](https://hkustconnect-my.sharepoint.com/:f:/g/personal/hwanggr_connect_ust_hk/EtNfW9971RlHppn4bgzE_2gB3QH4gsWRVOcL2bP9t4qTTQ?e=ZpZXRL).**
 
 The file structure should be: 
 ```shell
