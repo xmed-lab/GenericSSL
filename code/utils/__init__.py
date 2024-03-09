@@ -355,7 +355,7 @@ def test_single_case_2d(net, image, label, stride_xy, patch_size, num_classes):
             test_patch = image[:,  xs:xs+patch_size[0], ys:ys+patch_size[1]]
             test_patch = torch.from_numpy(test_patch).cuda().float()
             # print(test_patch.shape)
-            y1 = net(test_patch.unsqueeze(0), pred_type="student")
+            y1 = net(test_patch.unsqueeze(0), pred_type="D_theta_u")
             y = F.softmax(y1, dim=1) # <--
             y = y.cpu().data.numpy()
             y = y[0, ...]
