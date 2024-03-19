@@ -26,7 +26,7 @@ cd GenericSSL/
 pip install -r requirements.txt
 ```
 
-Then, before running the code, set the `PYTHONPATH` to `pwd`:
+[**📌IMPORTANT**] Then, before running the code, set the `PYTHONPATH` to `pwd`:
 ```shell
 export PYTHONPATH=$(pwd)/code:$PYTHONPATH
 ```
